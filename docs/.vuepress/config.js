@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/weekStudy/'
   logo: '/public/jerry.jpeg',
   title: '每周一砖',
   description: 'Just playing around',
