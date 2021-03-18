@@ -15,6 +15,7 @@ module.exports = {
     ],
     sidebar: [
       '/process-thread/',
+      '/travisCI/',
       ['/js/eventLoop.md', 'js']
     ]
   },
