@@ -34,14 +34,16 @@ deploy:
 
 ## 生成 GH_TOKEN
 
-<img :src="$withBase('/travis-ci/1.png')" alt="foo">
+<img :src="$withBase('/travis-ci/1.png')" alt="1">
+<img :src="$withBase('/travis-ci/2.png')" alt="2">
+<img :src="$withBase('/travis-ci/3.png')" alt="3">
+<img :src="$withBase('/travis-ci/4.png')" alt="4">
 
-![2](/weekStudy/travis-ci/2.png)
-![3](/travis-ci/3.png)
-![4](/travis-ci/4.png)
+## 在 Travis-ci 中配置 GH_TOKEN
 
-## 在Travis-ci中配置GH_TOKEN
-
-
-
-
+[travis-ci官网](https://travis-ci.com/signin)
+<img :src="$withBase('/travis-ci/5.png')" alt="5">
+<img :src="$withBase('/travis-ci/6.png')" alt="6">
+<img :src="$withBase('/travis-ci/7.png')" alt="7">
+<img :src="$withBase('/travis-ci/8.png')" alt="8">
+<img :src="$withBase('/travis-ci/9.png')" alt="9">

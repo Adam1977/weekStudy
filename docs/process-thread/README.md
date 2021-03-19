@@ -62,42 +62,42 @@
 [来源-阮一峰](http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html)
 
 1.
-![1](/process-thread/1.jpeg)
+<img :src="$withBase('/process-thread/1.jpeg')" alt="1">
 
 计算机的核心是 CPU，它承担了所有的计算任务。它就像一座工厂，时刻在运行。
 
 2.
-![2](/process-thread/2.png)
+<img :src="$withBase('/process-thread/2.png')" alt="2">
 
 假定工厂的电力有限，一次只能供给一个车间使用。也就是说，一个车间开工的时候，其他车间都必须停工。背后的含义就是，单个 CPU 一次只能运行一个任务。
 
 3.
-![3](/process-thread/3.jpeg)
+<img :src="$withBase('/process-thread/3.jpeg')" alt="3">
 
 进程就好比工厂的车间，它代表 CPU 所能处理的单个任务。任一时刻，CPU 总是运行一个进程，其他进程处于非运行状态。
 
 4.
-![4](/process-thread/4.jpeg)
+<img :src="$withBase('/process-thread/4.jpeg')" alt="4">
 
 一个车间里，可以有很多工人。他们协同完成一个任务。
 
 5.
-![5](/process-thread/5.jpeg)
+<img :src="$withBase('/process-thread/5.jpeg')" alt="5">
 
 线程就好比车间里的工人。一个进程可以包括多个线程。
 
 6.
-![6](/process-thread/6.png)
+<img :src="$withBase('/process-thread/6.png')" alt="6">
 
 车间的空间是工人们共享的，比如许多房间是每个工人都可以进出的。这象征一个进程的内存空间是共享的，每个线程都可以使用这些共享内存。
 
 7.
-![7](/process-thread/7.jpeg)
+<img :src="$withBase('/process-thread/7.jpeg')" alt="7">
 
 可是，每间房间的大小不同，有些房间最多只能容纳一个人，比如厕所。里面有人的时候，其他人就不能进去了。这代表一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存。
 
 8.
-![8](/process-thread/8.jpeg)
+<img :src="$withBase('/process-thread/8.jpeg')" alt="8">
 
 一个防止他人进入的简单方法，就是门口加一把锁。先到的人锁上门，后到的人看到上锁，就在门口排队，等锁打开再进去。这就叫"互斥锁"（Mutual exclusion，缩写 Mutex），防止多个线程同时读写某一块内存区域。
 
@@ -106,12 +106,12 @@
 :::
 
 9.
-![9](/process-thread/9.jpeg)
+<img :src="$withBase('/process-thread/9.jpeg')" alt="9">
 
 还有些房间，可以同时容纳 n 个人，比如厨房。也就是说，如果人数大于 n，多出来的人只能在外面等着。这好比某些内存区域，只能供给固定数目的线程使用。
 
 10.
-![10](/process-thread/10.jpeg)
+<img :src="$withBase('/process-thread/10.jpeg')" alt="10">
 
 这时的解决方法，就是在门口挂 n 把钥匙。进去的人就取一把钥匙，出来时再把钥匙挂回原处。后到的人发现钥匙架空了，就知道必须在门口排队等着了。这种做法叫做"信号量"（Semaphore），用来保证多个线程不会互相冲突。
 
@@ -122,7 +122,7 @@
 :::
 
 11.
-![11](/process-thread/11.png)
+<img :src="$withBase('/process-thread/11.png')" alt="11">
 
 操作系统的设计，因此可以归结为三点：
 
