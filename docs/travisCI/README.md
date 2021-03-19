@@ -34,8 +34,9 @@ deploy:
 
 ## 生成 GH_TOKEN
 
-![1](/travis-ci/1.png)
-![2](/travis-ci/2.png)
+<img :src="$withBase('/travis-ci/1.png')" alt="foo">
+
+![2](/weekStudy/travis-ci/2.png)
 ![3](/travis-ci/3.png)
 ![4](/travis-ci/4.png)
 
