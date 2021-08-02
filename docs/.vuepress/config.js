@@ -16,7 +16,7 @@ module.exports = {
     sidebar: [
       '/process-thread/',
       '/travis-ci/',
-      ['/js/eventLoop.md', 'js']
+      ['/js/new.md', 'new操作符']
     ]
   },
   markdown: {
