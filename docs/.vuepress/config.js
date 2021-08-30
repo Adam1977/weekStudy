@@ -14,6 +14,7 @@ module.exports = {
       }
     ],
     sidebar: [
+      '/npm/',
       '/process-thread/',
       '/travis-ci/',
       ['/js/new.md', 'new操作符']

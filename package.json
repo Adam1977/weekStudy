@@ -9,5 +9,22 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "my-demo-js": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam1977/weekStudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Adam1977/weekStudy/issues"
+  },
+  "homepage": "https://github.com/Adam1977/weekStudy#readme",
+  "description": ""
 }
