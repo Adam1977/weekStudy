@@ -24,7 +24,7 @@ npm init -y
 先来看一下 package.json 的相关属性
 
 - name：即项目名
-- version：即包的版本
+- version：即包的版本（每次发布时，版本号要大于线上版本）
 - description：描述信息
 - main：指定入口文件
 - scripts：脚本命令
@@ -37,6 +37,12 @@ npm init -y
 
 :::tip 注意项
 name、version——必填
+
+引申
+
+[7 种版权类型](https://zhuanlan.zhihu.com/p/62578705)
+
+[package.json 中的入口 browser, module, main](https://github.com/SunshowerC/blog/issues/8)
 :::
 
 修改后的 package.json
