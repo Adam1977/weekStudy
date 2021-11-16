@@ -14,6 +14,7 @@ module.exports = {
       }
     ],
     sidebar: [
+      '/lowcode/',
       '/npm/',
       '/process-thread/',
       '/travis-ci/',
