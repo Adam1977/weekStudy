@@ -18,7 +18,8 @@ module.exports = {
       '/npm/',
       '/process-thread/',
       '/travis-ci/',
-      ['/js/new.md', 'new操作符']
+      ['/js/new.md', 'new操作符'],
+      '/design-pattern/'
     ]
   },
   markdown: {
