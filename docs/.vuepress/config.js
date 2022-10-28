@@ -1,7 +1,8 @@
 module.exports = {
-  base: '/weekStudy/',
+  // base: '/weekStudy/',
+  base: '/',
   logo: ' /jerry.jpeg',
-  title: '每周一砖',
+  title: '个人知识总结',
   description: 'Just playing around',
   themeConfig: {
     sidebarDepth: 3,
