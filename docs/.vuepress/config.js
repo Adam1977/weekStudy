@@ -3,7 +3,7 @@ module.exports = {
   base: '/',
   logo: ' /jerry.jpeg',
   title: '个人知识总结',
-  description: 'Just playing around',
+  description: 'Personal knowledge summary',
   themeConfig: {
     sidebarDepth: 3,
     displayAllHeaders: true,
